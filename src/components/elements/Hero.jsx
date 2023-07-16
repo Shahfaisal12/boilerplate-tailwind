@@ -4,8 +4,8 @@ import Typed from "react-typed";
 
 const Hero = () => {
   return (
-    <div className=" bg-black py-5">
-      <div className="max-w-[800px] m-auto w-full text-center flex flex-col">
+    <div className=" bg-black py-20">
+      <div className="max-w-[800px] m-auto w-full text-center flex flex-col py-6">
         <h5 className="text-xl font-bold uppercase text-[#00df9a] p-2">
           Growing with data Analytics
         </h5>
@@ -17,7 +17,7 @@ const Hero = () => {
             Fast, flaxible financing for
           </h6>
           <Typed
-            className="md:text-4xl sm:text-3xl text-xl font-bold"
+            className="md:text-4xl sm:text-3xl text-xl font-bold text-gray-600"
             strings={["BTB", "BTC", "SASS"]}
             typingSpeed={120}
             backSpeed={140}
